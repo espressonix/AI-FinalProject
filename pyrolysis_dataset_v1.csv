@@ -1,0 +1,82 @@
+paper_id,fig_ref,feedstock_primary,feedstock_secondary,blend_ratio,catalyst,catalyst_loading_pct,temperature_C,oil_yield_pct,gas_yield_pct,char_yield_pct,other_pct,data_confidence,notes
+P03,Fig2,PT,PET,100:0,none,0,400,27.2,22.0,52.0,,exact,co-pyrolysis PT:PET
+P03,Fig2,PT,PET,70:30,none,0,400,16,51.34,32.66,,exact,
+P03,Fig2,PT,PET,60:40,none,0,400,16,50.05,34.05,,exact,
+P03,Fig2,PT,PET,50:50,none,0,400,19,44.51,36.49,,exact,
+P03,Fig2,PT,PET,40:60,none,0,400,34,30.89,35.11,,exact,
+P03,Fig2,PT,PET,100:0,none,0,500,21.2,33.6,45.2,,exact,
+P03,Fig2,PT,PET,70:30,none,0,500,16,52.2,31.8,,exact,
+P03,Fig2,PT,PET,60:40,none,0,500,18,48.99,33.01,,exact,
+P03,Fig2,PT,PET,50:50,none,0,500,21,44.32,34.68,,exact,
+P03,Fig2,PT,PET,40:60,none,0,500,37,28.44,34.56,,exact,
+P03,Fig2,PT,PET,100:0,none,0,600,21.08,33.17,45.04,,exact,
+P03,Fig2,PT,PET,70:30,none,0,600,18,54.51,27.49,,exact,
+P03,Fig2,PT,PET,60:40,none,0,600,20,52.19,27.81,,exact,
+P03,Fig2,PT,PET,50:50,none,0,600,25,45.31,29.69,,exact,
+P03,Fig2,PT,PET,40:60,none,0,600,40,29.67,30.33,,exact,
+P04,Fig6a,unspecified_plastic,,,blank,0,,47.93,19.6,32.47,,exact,Cr@C catalyst series; temp = catalyst calcination temp not feedstock pyrolysis temp
+P04,Fig6a,unspecified_plastic,,,Cr@C-600,0,,44.05,25.3,30.65,,exact,
+P04,Fig6a,unspecified_plastic,,,Cr@C-700,0,,45.57,25.88,28.55,,exact,
+P04,Fig6a,unspecified_plastic,,,Cr@C-800,0,,45.3,22,32.7,,exact,
+P04,Fig6b,unspecified_plastic,,,Cr@C-700,0,,45.57,25.88,28.55,,exact,baseline repeated
+P04,Fig6b,unspecified_plastic,,,5Fe/Cr@C,5,,36.15,33.05,30.8,,exact,Fe loading wt%
+P04,Fig6b,unspecified_plastic,,,10Fe/Cr@C,10,,38.43,30.07,31.5,,exact,
+P04,Fig6b,unspecified_plastic,,,15Fe/Cr@C,15,,39.8,29.1,31.1,,exact,
+P04,Fig6b,unspecified_plastic,,,20Fe/Cr@C,20,,38.4,29.6,32,,exact,
+P05,Fig3a,VFR,PP,100:0,none,0,,26.22,41.18,32.59,,exact,
+P05,Fig3a,VFR,PP,90:10,none,0,,23.13,48.21,28.66,,exact,
+P05,Fig3a,VFR,PP,70:30,none,0,,30.47,47.07,22.46,,exact,
+P05,Fig3a,VFR,PP,50:50,none,0,,34.50,49.82,15.67,,exact,
+P05,Fig3a,PP,,0:100,none,0,,59.63,40.34,0,,exact,pure PP reference
+P05,Fig3b,VFR,HDPE,100:0,none,0,,26.22,41.18,32.59,,exact,
+P05,Fig3b,VFR,HDPE,90:10,none,0,,26.38,45.22,28.40,,exact,
+P05,Fig3b,VFR,HDPE,70:30,none,0,,31.13,46.65,22.22,,exact,
+P05,Fig3b,VFR,HDPE,50:50,none,0,,32.42,51.30,16.28,,exact,
+P05,Fig3b,HDPE,,0:100,none,0,,61.71,38.27,0,,exact,pure HDPE reference
+P05,Fig3c,VFR,LDPE,100:0,none,0,,26.22,41.18,32.59,,exact,
+P05,Fig3c,VFR,LDPE,90:10,none,0,,28.63,42.30,29.07,,exact,
+P05,Fig3c,VFR,LDPE,70:30,none,0,,31.50,45.74,22.75,,exact,
+P05,Fig3c,VFR,LDPE,50:50,none,0,,35.39,49.26,15.34,,exact,
+P05,Fig3c,LDPE,,0:100,none,0,,72.30,27.70,0,,exact,pure LDPE reference
+P06,Fig8a,CFW,,,CFW_blank,0,,31.5,51.4,17.1,,exact,
+P06,Fig8a,CFW,,,without_catalyst,0,,46.2,44.6,9.1,,exact,
+P06,Fig8a,CFW,,,EA,0,,35.5,55.1,9.5,,exact,
+P06,Fig8a,CFW,,,Cr,0,,39.5,49.6,10.8,,exact,
+P06,Fig8a,CFW,,,5CE,5,,66.5,23.0,10.4,,exact,
+P06,Fig8a,CFW,,,10CE,10,,45.2,44.3,10.6,,exact,
+P06,Fig8a,CFW,,,15CE,15,,76.4,13.6,10.0,,exact,
+P06,Fig8a,CFW,,,20CE,20,,42.4,47.4,10.2,,exact,
+P08,Fig4,EFB,,,none,0,,4,58.67,37.33,,exact,conversion_pct=62.67
+P08,Fig4,HDPE,,,none,0,,2.67,22.4,74.93,,exact,conversion_pct=25.07
+P08,Fig4,EFB,HDPE,,none,0,,4.21,35.66,60.13,,exact,conversion_pct=39.87
+P08,Fig4,EFB,HDPE,,CES,0,,4.68,21.51,73.81,,exact,conversion_pct=26.19
+P08,Fig4,EFB,HDPE,,FCC,0,,13.2,8.11,78.69,,exact,conversion_pct=21.31
+P08,Fig4,EFB,HDPE,,ZSM-5,0,,5.13,16.61,78.62,,exact,conversion_pct=21.74
+P09,Fig3a,plastic_container,,,none,0,650,59.5,3.0,0,37.5,exact,single-stage SS-N2; other=volatile
+P09,Fig3a,plastic_container,,,none,0,650,14.1,35.4,0,50.4,exact,multi-stage MS-N2; other=volatile
+P09,Fig3a,plastic_container,,,none,0,750,21.9,71.4,0,6.7,exact,multi-stage MS-N2; other=volatile
+P13,Fig3a,PE,,,none,0,800,69,27,4,,exact,high-temp carbonization regime (exceeds typical 300-700C pyrolysis range)
+P13,Fig3a,PE,,,none,0,1300,60,34,6,,exact,high-temp carbonization regime
+P13,Fig3a,PE,,,none,0,1600,46,42,12,,exact,high-temp carbonization regime
+P13,Fig3a,PE,,,none,0,1900,38,47,15,,exact,high-temp carbonization regime
+P13,Fig3a,PE,,,none,0,2300,28,51,21,,exact,high-temp carbonization regime
+P14,Fig2,HDPE,,,none,0,550,36.6,2.4,61.0,,exact,solid mapped to char
+P14,Fig2,PP,,,none,0,550,27.8,2.1,70.2,,exact,
+P14,Fig2,PET,,,none,0,550,13.5,45.6,37.8,3.1,exact,other=residue
+P14,Fig2,PS,,,none,0,550,97.6,2.4,0,,exact,
+P15,Fig8b,PE,,,CPP,0,,76.5,23.2,0,,exact,PE-CPP pyrolysis process
+P15,Fig8b,PE,,,TTPP,0,,85.3,14.3,0,,exact,PE-TTPP pyrolysis process
+P27,Fig3a,PP,,,none,0,,41.9,56.0,2.1,,exact,base process
+P27,Fig3a,PS,,,none,0,,81.3,11.7,7.0,,exact,base process
+P27,Fig3a,PS,PP,,none,0,,22.8,72.2,5.1,,exact,base process
+P27,Fig3a,PS,PE,,none,0,,51.5,41.3,7.2,,exact,base process
+P27,Fig3a,PP,PE,,none,0,,23.8,51.3,24.9,,exact,base process
+P27,Fig3a,PS,PE_PP,,none,0,,47.9,48.2,3.9,,exact,base process; 3-way blend
+P27,Fig3a,PS,PE_PP_PET,,none,0,,41.5,40.5,18.0,,exact,base process; 4-way blend
+P27,Fig3b,PP,,,none,0,,49.3,48.9,1.8,,exact,alternative/catalytic-reform process
+P27,Fig3b,PS,,,none,0,,81.3,11.7,7.0,,exact,alternative process
+P27,Fig3b,PS,PP,,none,0,,65.3,29.7,5.0,,exact,alternative process
+P27,Fig3b,PS,PE,,none,0,,65.6,27.2,7.2,,exact,alternative process
+P27,Fig3b,PP,PE,,none,0,,60.0,14.4,25.6,,exact,alternative process
+P27,Fig3b,PS,PE_PP,,none,0,,53.3,42.8,3.9,,exact,alternative process
+P27,Fig3b,PS,PE_PP_PET,,none,0,,43.0,39.0,18.0,,exact,alternative process

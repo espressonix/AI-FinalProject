@@ -1,0 +1,107 @@
+HASIL VERIFIKASI EKSPERIMEN — Final Project AI
+Privan Peter (1146056) & Charlie Dumingan (1149107)
+Dijalankan ulang pada: 2026-06-17, untuk verifikasi angka yang dikutip di laporan (Tabel 1 & 2)
+
+=====================================================================
+SCRIPT: kfold_compare.py
+Tujuan: menghitung R2 model RF dengan k-fold ACAK (TANPA pengelompokan
+per paper) -> baseline yang TERLALU OPTIMIS karena ada potential leakage
+antar baris dari paper yang sama.
+=====================================================================
+Random 5-fold CV (TIDAK dikelompokkan per paper -> rawan leakage):
+  R2 = 0.435
+  MAE = 11.58
+
+=====================================================================
+SCRIPT: train_models.py
+Tujuan: menghitung R2 dengan Leave-One-Study-Out (LOSO) CV, dikelompokkan
+per paper (group_id) -> evaluasi generalisasi yang jujur ke studi baru.
+Dijalankan 2x: subset EXACT-ONLY (sanity check, confidence tinggi saja)
+dan subset FULL (exact+estimated, dataset penuh 201 baris).
+=====================================================================
+
+----------------------------------------------------------------
+SUBSET: EXACT-ONLY — 82 baris, 10 paper
+----------------------------------------------------------------
+
+[RandomForest] LOSO CV — 10 grup paper, 10 fold valid
+  MAE rata-rata fold : 20.22 (std 11.88)
+  RMSE rata-rata fold: 22.87
+  R2 (pooled, semua prediksi held-out digabung): 0.054
+  5 fold dengan error tertinggi:
+    P15: n=2, MAE=48.62, y_true_mean=80.9
+    P08: n=6, MAE=35.80, y_true_mean=5.6
+    P27: n=14, MAE=19.64, y_true_mean=52.0
+    P24: n=6, MAE=18.19, y_true_mean=4.2
+    P14: n=4, MAE=17.39, y_true_mean=43.9
+
+[ANN_MLP] LOSO CV — 10 grup paper, 10 fold valid
+  MAE rata-rata fold : 24.34 (std 11.99)
+  RMSE rata-rata fold: 27.11
+  R2 (pooled, semua prediksi held-out digabung): -0.552
+  5 fold dengan error tertinggi:
+    P15: n=2, MAE=51.10, y_true_mean=80.9
+    P27: n=14, MAE=35.86, y_true_mean=52.0
+    P08: n=6, MAE=33.44, y_true_mean=5.6
+    P24: n=6, MAE=26.53, y_true_mean=4.2
+    P09: n=3, MAE=21.44, y_true_mean=31.8
+
+[SVR] LOSO CV — 10 grup paper, 10 fold valid
+  MAE rata-rata fold : 21.47 (std 12.70)
+  RMSE rata-rata fold: 24.90
+  R2 (pooled, semua prediksi held-out digabung): -0.192
+  5 fold dengan error tertinggi:
+    P15: n=2, MAE=49.83, y_true_mean=80.9
+    P08: n=6, MAE=34.19, y_true_mean=5.6
+    P27: n=14, MAE=30.43, y_true_mean=52.0
+    P24: n=6, MAE=22.89, y_true_mean=4.2
+    P14: n=4, MAE=20.30, y_true_mean=43.9
+
+----------------------------------------------------------------
+SUBSET: FULL (exact+estimated) — 201 baris, 25 paper
+----------------------------------------------------------------
+
+[RandomForest] LOSO CV — 25 grup paper, 25 fold valid
+  MAE rata-rata fold : 20.83 (std 12.33)
+  RMSE rata-rata fold: 22.43
+  R2 (pooled, semua prediksi held-out digabung): -0.411   <-- angka headline di laporan
+  5 fold dengan error tertinggi:
+    P10: n=8, MAE=53.07, y_true_mean=65.1
+    P15: n=2, MAE=49.43, y_true_mean=80.9
+    P08: n=6, MAE=38.43, y_true_mean=5.6
+    P18: n=6, MAE=34.25, y_true_mean=68.3
+    P24: n=6, MAE=34.09, y_true_mean=4.2
+
+[ANN_MLP] LOSO CV — 25 grup paper, 25 fold valid
+  MAE rata-rata fold : 25.66 (std 23.94)
+  RMSE rata-rata fold: 28.98
+  R2 (pooled, semua prediksi held-out digabung): -2.959
+  5 fold dengan error tertinggi:
+    P23: n=7, MAE=128.10, y_true_mean=63.4
+    P10: n=8, MAE=51.31, y_true_mean=65.1
+    P15: n=2, MAE=39.20, y_true_mean=80.9
+    P08: n=6, MAE=36.12, y_true_mean=5.6
+    P24: n=6, MAE=35.42, y_true_mean=4.2
+
+[SVR] LOSO CV — 25 grup paper, 25 fold valid
+  MAE rata-rata fold : 19.63 (std 10.22)
+  RMSE rata-rata fold: 21.23
+  R2 (pooled, semua prediksi held-out digabung): -0.174
+  5 fold dengan error tertinggi:
+    P15: n=2, MAE=47.68, y_true_mean=80.9
+    P24: n=6, MAE=37.51, y_true_mean=4.2
+    P08: n=6, MAE=37.06, y_true_mean=5.6
+    P18: n=6, MAE=35.17, y_true_mean=68.3
+    P10: n=8, MAE=26.12, y_true_mean=65.1
+
+=====================================================================
+CATATAN VERIFIKASI
+=====================================================================
+- R2 = 0.435 (kfold_compare.py) dan R2 = -0.411 (train_models.py, RF,
+  subset FULL) DIKONFIRMASI cocok dengan angka yang dikutip di laporan.
+- Model RF di kedua script memakai hyperparameter identik:
+  n_estimators=300, max_depth=8, min_samples_leaf=2, random_state=42.
+  Perbedaan HANYA pada skema validasi (k-fold acak vs LOSO per paper).
+- Angka ANN_MLP LOSO subset FULL (-2.959) jauh lebih buruk dari RF
+  (-0.411) -> cek konsistensi dengan Tabel 2 di laporan bila tabel itu
+  mengutip angka ANN.

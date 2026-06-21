@@ -1,0 +1,202 @@
+paper_id,group_id,feedstock_primary,feedstock_family,feedstock_secondary,primary_fraction,catalyst_type,catalyst_family,has_catalyst,catalyst_loading_pct,temperature_C,temperature_missing,oil_yield_pct,gas_yield_pct_REFERENCE_ONLY,char_yield_pct_REFERENCE_ONLY,data_confidence,notes
+P03,P03,PT,PP,PET,1.0,none,none,0,0.0,400.0,0,27.2,22.0,52.0,exact,co-pyrolysis PT:PET
+P03,P03,PT,PP,PET,0.7,none,none,0,0.0,400.0,0,16.0,51.34,32.66,exact,
+P03,P03,PT,PP,PET,0.6,none,none,0,0.0,400.0,0,16.0,50.05,34.05,exact,
+P03,P03,PT,PP,PET,0.5,none,none,0,0.0,400.0,0,19.0,44.51,36.49,exact,
+P03,P03,PT,PP,PET,0.4,none,none,0,0.0,400.0,0,34.0,30.89,35.11,exact,
+P03,P03,PT,PP,PET,1.0,none,none,0,0.0,500.0,0,21.2,33.6,45.2,exact,
+P03,P03,PT,PP,PET,0.7,none,none,0,0.0,500.0,0,16.0,52.2,31.8,exact,
+P03,P03,PT,PP,PET,0.6,none,none,0,0.0,500.0,0,18.0,48.99,33.01,exact,
+P03,P03,PT,PP,PET,0.5,none,none,0,0.0,500.0,0,21.0,44.32,34.68,exact,
+P03,P03,PT,PP,PET,0.4,none,none,0,0.0,500.0,0,37.0,28.44,34.56,exact,
+P03,P03,PT,PP,PET,1.0,none,none,0,0.0,600.0,0,21.08,33.17,45.04,exact,
+P03,P03,PT,PP,PET,0.7,none,none,0,0.0,600.0,0,18.0,54.51,27.49,exact,
+P03,P03,PT,PP,PET,0.6,none,none,0,0.0,600.0,0,20.0,52.19,27.81,exact,
+P03,P03,PT,PP,PET,0.5,none,none,0,0.0,600.0,0,25.0,45.31,29.69,exact,
+P03,P03,PT,PP,PET,0.4,none,none,0,0.0,600.0,0,40.0,29.67,30.33,exact,
+P04,P04,unspecified_plastic,mixed_waste,none,1.0,blank,other_catalyst,1,0.0,,1,47.93,19.6,32.47,exact,Cr@C catalyst series; temp = catalyst calcination temp not feedstock pyrolysis temp
+P04,P04,unspecified_plastic,mixed_waste,none,1.0,Cr@C-600,metal_doped,1,0.0,,1,44.05,25.3,30.65,exact,
+P04,P04,unspecified_plastic,mixed_waste,none,1.0,Cr@C-700,metal_doped,1,0.0,,1,45.57,25.88,28.55,exact,
+P04,P04,unspecified_plastic,mixed_waste,none,1.0,Cr@C-800,metal_doped,1,0.0,,1,45.3,22,32.7,exact,
+P04,P04,unspecified_plastic,mixed_waste,none,1.0,Cr@C-700,metal_doped,1,0.0,,1,45.57,25.88,28.55,exact,baseline repeated
+P04,P04,unspecified_plastic,mixed_waste,none,1.0,5Fe/Cr@C,metal_doped,1,5.0,,1,36.15,33.05,30.8,exact,Fe loading wt%
+P04,P04,unspecified_plastic,mixed_waste,none,1.0,10Fe/Cr@C,metal_doped,1,10.0,,1,38.43,30.07,31.5,exact,
+P04,P04,unspecified_plastic,mixed_waste,none,1.0,15Fe/Cr@C,metal_doped,1,15.0,,1,39.8,29.1,31.1,exact,
+P04,P04,unspecified_plastic,mixed_waste,none,1.0,20Fe/Cr@C,metal_doped,1,20.0,,1,38.4,29.6,32,exact,
+P05,P05,VFR,mixed_waste,PP,1.0,none,none,0,0.0,,1,26.22,41.18,32.59,exact,
+P05,P05,VFR,mixed_waste,PP,0.9,none,none,0,0.0,,1,23.13,48.21,28.66,exact,
+P05,P05,VFR,mixed_waste,PP,0.7,none,none,0,0.0,,1,30.47,47.07,22.46,exact,
+P05,P05,VFR,mixed_waste,PP,0.5,none,none,0,0.0,,1,34.5,49.82,15.67,exact,
+P05,P05,PP,PP,none,0.0,none,none,0,0.0,,1,59.63,40.34,0,exact,pure PP reference
+P05,P05,VFR,mixed_waste,HDPE,1.0,none,none,0,0.0,,1,26.22,41.18,32.59,exact,
+P05,P05,VFR,mixed_waste,HDPE,0.9,none,none,0,0.0,,1,26.38,45.22,28.40,exact,
+P05,P05,VFR,mixed_waste,HDPE,0.7,none,none,0,0.0,,1,31.13,46.65,22.22,exact,
+P05,P05,VFR,mixed_waste,HDPE,0.5,none,none,0,0.0,,1,32.42,51.30,16.28,exact,
+P05,P05,HDPE,PE,none,0.0,none,none,0,0.0,,1,61.71,38.27,0,exact,pure HDPE reference
+P05,P05,VFR,mixed_waste,LDPE,1.0,none,none,0,0.0,,1,26.22,41.18,32.59,exact,
+P05,P05,VFR,mixed_waste,LDPE,0.9,none,none,0,0.0,,1,28.63,42.30,29.07,exact,
+P05,P05,VFR,mixed_waste,LDPE,0.7,none,none,0,0.0,,1,31.5,45.74,22.75,exact,
+P05,P05,VFR,mixed_waste,LDPE,0.5,none,none,0,0.0,,1,35.39,49.26,15.34,exact,
+P05,P05,LDPE,PE,none,0.0,none,none,0,0.0,,1,72.3,27.70,0,exact,pure LDPE reference
+P06,P06,CFW,mixed_waste,none,1.0,CFW_blank,other_catalyst,1,0.0,,1,31.5,51.4,17.1,exact,
+P06,P06,CFW,mixed_waste,none,1.0,without_catalyst,other_catalyst,1,0.0,,1,46.2,44.6,9.1,exact,
+P06,P06,CFW,mixed_waste,none,1.0,EA,other_catalyst,1,0.0,,1,35.5,55.1,9.5,exact,
+P06,P06,CFW,mixed_waste,none,1.0,Cr,metal_doped,1,0.0,,1,39.5,49.6,10.8,exact,
+P06,P06,CFW,mixed_waste,none,1.0,5CE,other_catalyst,1,5.0,,1,66.5,23.0,10.4,exact,
+P06,P06,CFW,mixed_waste,none,1.0,10CE,other_catalyst,1,10.0,,1,45.2,44.3,10.6,exact,
+P06,P06,CFW,mixed_waste,none,1.0,15CE,other_catalyst,1,15.0,,1,76.4,13.6,10.0,exact,
+P06,P06,CFW,mixed_waste,none,1.0,20CE,other_catalyst,1,20.0,,1,42.4,47.4,10.2,exact,
+P08,P08,EFB,biomass,none,1.0,none,none,0,0.0,,1,4.0,58.67,37.33,exact,conversion_pct=62.67
+P08,P08,HDPE,PE,none,1.0,none,none,0,0.0,,1,2.67,22.4,74.93,exact,conversion_pct=25.07
+P08,P08,EFB,biomass,HDPE,1.0,none,none,0,0.0,,1,4.21,35.66,60.13,exact,conversion_pct=39.87
+P08,P08,EFB,biomass,HDPE,1.0,CES,other_catalyst,1,0.0,,1,4.68,21.51,73.81,exact,conversion_pct=26.19
+P08,P08,EFB,biomass,HDPE,1.0,FCC,fcc_zeolite_industrial,1,0.0,,1,13.2,8.11,78.69,exact,conversion_pct=21.31
+P08,P08,EFB,biomass,HDPE,1.0,ZSM-5,zeolite,1,0.0,,1,5.13,16.61,78.62,exact,conversion_pct=21.74
+P09,P09,plastic_container,mixed_waste,none,1.0,none,none,0,0.0,650.0,0,59.5,3.0,0,exact,single-stage SS-N2; other=volatile
+P09,P09,plastic_container,mixed_waste,none,1.0,none,none,0,0.0,650.0,0,14.1,35.4,0,exact,multi-stage MS-N2; other=volatile
+P09,P09,plastic_container,mixed_waste,none,1.0,none,none,0,0.0,750.0,0,21.9,71.4,0,exact,multi-stage MS-N2; other=volatile
+P14,P14,HDPE,PE,none,1.0,none,none,0,0.0,550.0,0,36.6,2.4,61.0,exact,solid mapped to char
+P14,P14,PP,PP,none,1.0,none,none,0,0.0,550.0,0,27.8,2.1,70.2,exact,
+P14,P14,PET,PET,none,1.0,none,none,0,0.0,550.0,0,13.5,45.6,37.8,exact,other=residue
+P14,P14,PS,PS,none,1.0,none,none,0,0.0,550.0,0,97.6,2.4,0,exact,
+P15,P15,PE,PE,none,1.0,CPP,other_catalyst,1,0.0,,1,76.5,23.2,0,exact,PE-CPP pyrolysis process
+P15,P15,PE,PE,none,1.0,TTPP,other_catalyst,1,0.0,,1,85.3,14.3,0,exact,PE-TTPP pyrolysis process
+P27,P27,PP,PP,none,1.0,none,none,0,0.0,,1,41.9,56.0,2.1,exact,base process
+P27,P27,PS,PS,none,1.0,none,none,0,0.0,,1,81.3,11.7,7.0,exact,base process
+P27,P27,PS,PS,PP,1.0,none,none,0,0.0,,1,22.8,72.2,5.1,exact,base process
+P27,P27,PS,PS,PE,1.0,none,none,0,0.0,,1,51.5,41.3,7.2,exact,base process
+P27,P27,PP,PP,PE,1.0,none,none,0,0.0,,1,23.8,51.3,24.9,exact,base process
+P27,P27,PS,PS,PE_PP,1.0,none,none,0,0.0,,1,47.9,48.2,3.9,exact,base process; 3-way blend
+P27,P27,PS,PS,PE_PP_PET,1.0,none,none,0,0.0,,1,41.5,40.5,18.0,exact,base process; 4-way blend
+P27,P27,PP,PP,none,1.0,none,none,0,0.0,,1,49.3,48.9,1.8,exact,alternative/catalytic-reform process
+P27,P27,PS,PS,none,1.0,none,none,0,0.0,,1,81.3,11.7,7.0,exact,alternative process
+P27,P27,PS,PS,PP,1.0,none,none,0,0.0,,1,65.3,29.7,5.0,exact,alternative process
+P27,P27,PS,PS,PE,1.0,none,none,0,0.0,,1,65.6,27.2,7.2,exact,alternative process
+P27,P27,PP,PP,PE,1.0,none,none,0,0.0,,1,60.0,14.4,25.6,exact,alternative process
+P27,P27,PS,PS,PE_PP,1.0,none,none,0,0.0,,1,53.3,42.8,3.9,exact,alternative process
+P27,P27,PS,PS,PE_PP_PET,1.0,none,none,0,0.0,,1,43.0,39.0,18.0,exact,alternative process
+P01,P01,algae_Ulva,biomass,LDPE,,none,none,0,0.0,450.0,0,44.0,32,20,estimated,gridline read step5; char corrected via re-audit (was 35)
+P01,P01,algae_Ulva,biomass,LDPE,,none,none,0,0.0,450.0,0,40.0,32,28,estimated,
+P01,P01,algae_Ulva,biomass,LDPE,,none,none,0,0.0,525.0,0,48.0,34,15,estimated,char corrected via re-audit (was 37)
+P01,P01,algae_Ulva,biomass,LDPE,,none,none,0,0.0,525.0,0,44.0,34,22,estimated,
+P01,P01,algae_Ulva,biomass,LDPE,,none,none,0,0.0,600.0,0,48.0,40,11,estimated,char corrected via re-audit (was 41)
+P01,P01,algae_Ulva,biomass,LDPE,,none,none,0,0.0,600.0,0,44.0,39,18,estimated,
+P01,P01,algae_Ulva,biomass,LDPE,,none,none,0,0.0,675.0,0,44.0,47,8,estimated,char corrected via re-audit (was 48)
+P01,P01,algae_Ulva,biomass,LDPE,,none,none,0,0.0,675.0,0,39.0,47,8,estimated,
+P02,P02,Ulva_lactuca,biomass,PET,1.0,none,none,0,0.0,400.0,0,11.0,8,82,estimated,
+P02,P02,Ulva_lactuca,biomass,PET,0.7,none,none,0,0.0,400.0,0,18.0,35,47,estimated,
+P02,P02,Ulva_lactuca,biomass,PET,0.6,none,none,0,0.0,400.0,0,19.0,41,40,estimated,
+P02,P02,Ulva_lactuca,biomass,PET,0.5,none,none,0,0.0,400.0,0,20.0,41,37,estimated,
+P02,P02,Ulva_lactuca,biomass,PET,0.4,none,none,0,0.0,400.0,0,23.0,42,33,estimated,
+P02,P02,Ulva_lactuca,biomass,PET,0.3,none,none,0,0.0,400.0,0,27.0,40,32,estimated,
+P02,P02,Ulva_lactuca,biomass,PET,1.0,none,none,0,0.0,500.0,0,16.0,13,70,estimated,
+P02,P02,Ulva_lactuca,biomass,PET,0.7,none,none,0,0.0,500.0,0,21.0,40,39,estimated,
+P02,P02,Ulva_lactuca,biomass,PET,0.6,none,none,0,0.0,500.0,0,26.0,45,32,estimated,gas corrected via re-audit (was 31)
+P02,P02,Ulva_lactuca,biomass,PET,0.5,none,none,0,0.0,500.0,0,31.0,44,25,estimated,
+P02,P02,Ulva_lactuca,biomass,PET,0.4,none,none,0,0.0,500.0,0,38.0,46,15,estimated,
+P02,P02,Ulva_lactuca,biomass,PET,0.3,none,none,0,0.0,500.0,0,35.0,46,17,estimated,
+P02,P02,Ulva_lactuca,biomass,PET,1.0,none,none,0,0.0,600.0,0,20.0,13,66,estimated,
+P02,P02,Ulva_lactuca,biomass,PET,0.7,none,none,0,0.0,600.0,0,24.0,43,34,estimated,
+P02,P02,Ulva_lactuca,biomass,PET,0.6,none,none,0,0.0,600.0,0,26.0,45,30,estimated,
+P02,P02,Ulva_lactuca,biomass,PET,0.5,none,none,0,0.0,600.0,0,29.0,50,22,estimated,
+P02,P02,Ulva_lactuca,biomass,PET,0.4,none,none,0,0.0,600.0,0,35.0,50,14,estimated,
+P02,P02,Ulva_lactuca,biomass,PET,0.3,none,none,0,0.0,600.0,0,36.0,51,14,estimated,
+P07,P07,unspecified_plastic,mixed_waste,none,1.0,Na2CO3,alkali,1,0.0,,1,61.5,29,10,estimated,
+P07,P07,unspecified_plastic,mixed_waste,none,1.0,Na2CO3,alkali,1,2.5,,1,64.0,28.5,8,estimated,
+P07,P07,unspecified_plastic,mixed_waste,none,1.0,Na2CO3,alkali,1,5.0,,1,63.5,29,7.5,estimated,
+P07,P07,unspecified_plastic,mixed_waste,none,1.0,Na2CO3,alkali,1,7.5,,1,65.0,29,6.5,estimated,
+P07,P07,unspecified_plastic,mixed_waste,none,1.0,Na2CO3,alkali,1,10.0,,1,64.0,30.5,5.5,estimated,
+P10,P10,wax,wax,none,1.0,NC,other_catalyst,1,0.0,250.0,0,43.0,35,22,estimated,catalytic cracking of wax pyrolysis oil
+P10,P10,wax,wax,none,1.0,NC,other_catalyst,1,0.0,300.0,0,74.0,26,0,estimated,
+P10,P10,wax,wax,none,1.0,B,other_catalyst,1,0.0,250.0,0,60.0,2,38,estimated,
+P10,P10,wax,wax,none,1.0,B,other_catalyst,1,0.0,300.0,0,64.0,23,13,estimated,
+P10,P10,wax,wax,none,1.0,H,other_catalyst,1,0.0,250.0,0,63.0,14,23,estimated,
+P10,P10,wax,wax,none,1.0,H,other_catalyst,1,0.0,300.0,0,79.0,10,11,estimated,
+P10,P10,wax,wax,none,1.0,S,other_catalyst,1,0.0,250.0,0,62.0,19,19,estimated,
+P10,P10,wax,wax,none,1.0,S,other_catalyst,1,0.0,300.0,0,76.0,12,12,estimated,
+P11,P11,unspecified_plastic,mixed_waste,none,1.0,none,none,0,0.0,350.0,0,38.0,28.5,34,estimated,oil=organic_liquid+water+wax combined
+P11,P11,unspecified_plastic,mixed_waste,none,1.0,none,none,0,0.0,400.0,0,45.0,30,25.5,estimated,
+P11,P11,unspecified_plastic,mixed_waste,none,1.0,none,none,0,0.0,500.0,0,43.0,33,24,estimated,
+P11,P11,unspecified_plastic,mixed_waste,none,1.0,none,none,0,0.0,550.0,0,41.5,34,24,estimated,
+P11,P11,unspecified_plastic,mixed_waste,none,1.0,none,none,0,0.0,600.0,0,44.0,35,23,estimated,
+P12,P12,unspecified_plastic,mixed_waste,none,1.0,MCF,fcc_zeolite_industrial,1,0.0,,1,55.0,32,9,estimated,conversion_pct=85
+P12,P12,unspecified_plastic,mixed_waste,none,1.0,mMCF72h,fcc_zeolite_industrial,1,0.0,,1,66.0,20,4,estimated,conversion_pct=82
+P12,P12,unspecified_plastic,mixed_waste,none,1.0,Ecat,fcc_zeolite_industrial,1,0.0,,1,66.0,20,4,estimated,conversion_pct=83
+P12,P12,unspecified_plastic,mixed_waste,none,1.0,mHZSM5,zeolite,1,0.0,,1,62.0,21,4,estimated,conversion_pct=82
+P12,P12,unspecified_plastic,mixed_waste,none,1.0,HZSM5,zeolite,1,0.0,,1,62.0,32,3.5,estimated,conversion_pct=75
+P17,P17,unspecified_plastic,mixed_waste,none,1.0,none,none,0,0.0,,1,58.0,38,4,estimated,rotary kiln solid heat carrier
+P17,P17,unspecified_plastic,mixed_waste,none,1.0,ZSM-5,zeolite,1,0.0,,1,53.0,43,4,estimated,
+P17,P17,unspecified_plastic,mixed_waste,none,1.0,5Ni/ZSM-5,zeolite,1,5.0,,1,55.0,41,4,estimated,Ni loading wt%
+P17,P17,unspecified_plastic,mixed_waste,none,1.0,10Ni/ZSM-5,zeolite,1,10.0,,1,56.0,41,3,estimated,
+P17,P17,unspecified_plastic,mixed_waste,none,1.0,20Ni/ZSM-5,zeolite,1,20.0,,1,56.0,40,4,estimated,
+P18,P18,PT,PP,PET,1.0,none,none,0,0.0,600.0,0,59.0,3,38,estimated,blending ratio 0=100%PT
+P18,P18,PT,PP,PET,0.8,none,none,0,0.0,600.0,0,59.0,10,30,estimated,
+P18,P18,PT,PP,PET,0.6,none,none,0,0.0,600.0,0,66.0,10,23,estimated,
+P18,P18,PT,PP,PET,0.4,none,none,0,0.0,600.0,0,70.0,15,15,estimated,
+P18,P18,PT,PP,PET,0.19999999999999996,none,none,0,0.0,600.0,0,73.0,19,7,estimated,
+P18,P18,PT,PP,PET,0.0,none,none,0,0.0,600.0,0,83.0,17,0,estimated,ratio 1.0=100%PET
+P19,P19,PS,PS,none,1.0,none,none,0,0.0,,1,17.5,,,estimated,oil-only; t=180min endpoint; 300W
+P19,P19,PE,PE,none,1.0,none,none,0,0.0,,1,16.0,,,estimated,oil-only; t=180min endpoint
+P19,P19,PP,PP,none,1.0,none,none,0,0.0,,1,17.0,,,estimated,oil-only; t=180min endpoint
+P19,P19,PS,PS,none,1.0,HZSM-5,zeolite,1,0.0,,1,29.5,,,estimated,oil-only; t=180min endpoint
+P19,P19,PE,PE,none,1.0,HZSM-5,zeolite,1,0.0,,1,27.5,,,estimated,oil-only; t=180min endpoint
+P19,P19,PP,PP,none,1.0,HZSM-5,zeolite,1,0.0,,1,28.5,,,estimated,oil-only; t=180min endpoint
+P20,P20,PE,PE,none,1.0,none,none,0,0.0,,1,42.6,52.94,0,estimated,tandem pyrolysis no reformation; mass_balance=95.54
+P20,P20,PP,PP,none,1.0,none,none,0,0.0,,1,38.2,61.06,0,estimated,mass_balance=99.26
+P20,P20,PS,PS,none,1.0,none,none,0,0.0,,1,67.7,31.67,0,estimated,mass_balance=99.37
+P20,P20,PET,PET,none,1.0,none,none,0,0.0,,1,42.6,41.55,11.7,estimated,mass_balance=95.85
+P21,P21,PET,PET,sludge,0.25,none,none,0,0.0,450.0,0,25.0,3,52,estimated,merged biochar/biooil/biogas figs
+P21,P21,PET,PET,sludge,0.25,none,none,0,0.0,550.0,0,49.5,7.5,21,estimated,
+P21,P21,PET,PET,sludge,0.25,none,none,0,0.0,650.0,0,37.0,13.5,39,estimated,
+P21,P21,PET,PET,sludge,0.25,HZSM-5,zeolite,1,0.0,450.0,0,25.0,7,48,estimated,
+P21,P21,PET,PET,sludge,0.25,HZSM-5,zeolite,1,0.0,550.0,0,41.0,11,27,estimated,
+P21,P21,PET,PET,sludge,0.25,HZSM-5,zeolite,1,0.0,650.0,0,21.0,5,60,estimated,
+P21,P21,PET,PET,sludge,0.25,KOH,alkali,1,0.0,450.0,0,17.0,39,33,estimated,
+P21,P21,PET,PET,sludge,0.25,KOH,alkali,1,0.0,550.0,0,18.0,10,57,estimated,
+P21,P21,PET,PET,sludge,0.25,KOH,alkali,1,0.0,650.0,0,20.0,12,51,estimated,
+P21,P21,PET,PET,sludge,0.5,none,none,0,0.0,450.0,0,11.0,4,67,estimated,
+P21,P21,PET,PET,sludge,0.5,none,none,0,0.0,550.0,0,25.0,9.5,52,estimated,
+P21,P21,PET,PET,sludge,0.5,none,none,0,0.0,650.0,0,46.0,10,26,estimated,
+P21,P21,PET,PET,sludge,0.5,HZSM-5,zeolite,1,0.0,450.0,0,12.0,5.5,68,estimated,
+P21,P21,PET,PET,sludge,0.5,HZSM-5,zeolite,1,0.0,550.0,0,29.0,14,46,estimated,
+P21,P21,PET,PET,sludge,0.5,HZSM-5,zeolite,1,0.0,650.0,0,22.0,23.5,40,estimated,
+P21,P21,PET,PET,sludge,0.5,KOH,alkali,1,0.0,450.0,0,12.0,4,70,estimated,
+P21,P21,PET,PET,sludge,0.5,KOH,alkali,1,0.0,550.0,0,14.0,4.5,69,estimated,
+P21,P21,PET,PET,sludge,0.5,KOH,alkali,1,0.0,650.0,0,9.5,18,55,estimated,
+P21,P21,PET,PET,sludge,0.75,none,none,0,0.0,450.0,0,38.0,7,37,estimated,
+P21,P21,PET,PET,sludge,0.75,none,none,0,0.0,550.0,0,38.5,25,19,estimated,
+P21,P21,PET,PET,sludge,0.75,none,none,0,0.0,650.0,0,45.0,6,23,estimated,
+P21,P21,PET,PET,sludge,0.75,HZSM-5,zeolite,1,0.0,450.0,0,26.0,33.5,18,estimated,
+P21,P21,PET,PET,sludge,0.75,HZSM-5,zeolite,1,0.0,550.0,0,28.5,13,37,estimated,
+P21,P21,PET,PET,sludge,0.75,HZSM-5,zeolite,1,0.0,650.0,0,25.0,30.5,22,estimated,
+P21,P21,PET,PET,sludge,0.75,KOH,alkali,1,0.0,450.0,0,22.5,24,36,estimated,
+P21,P21,PET,PET,sludge,0.75,KOH,alkali,1,0.0,550.0,0,20.0,31,33,estimated,
+P21,P21,PET,PET,sludge,0.75,KOH,alkali,1,0.0,650.0,0,33.0,41.5,5,estimated,
+P22,P22,CSGFP_blend,mixed_waste,none,0.0,none,none,0,0.0,,1,62.0,27,11,estimated,char/other swapped via re-audit (char=biochar was mislabeled as other)
+P22,P22,CSGFP_blend,mixed_waste,none,0.6666666666666666,none,none,0,0.0,,1,57.0,29,9,estimated,char/other swapped via re-audit
+P22,P22,CSGFP_blend,mixed_waste,none,0.5,none,none,0,0.0,,1,53.0,22,17,estimated,char/other swapped via re-audit
+P22,P22,CSGFP_blend,mixed_waste,none,0.3333333333333333,none,none,0,0.0,,1,48.0,21,22,estimated,char/other swapped via re-audit
+P22,P22,CSGFP_blend,mixed_waste,none,1.0,none,none,0,0.0,,1,42.0,20,32,estimated,char/other swapped via re-audit
+P23,P23,unspecified_plastic,mixed_waste,none,1.0,zeolite_SiAl_none,zeolite,1,0.0,,1,83.0,10.5,6.5,estimated,catalyst_loading_pct repurposed as Si/Al ratio below; oil/gas corrected via re-audit (oil was read as cumulative stack-top
+P23,P23,unspecified_plastic,mixed_waste,none,1.0,zeolite_SiAl_25,zeolite,1,25.0,,1,57.0,37,6,estimated,oil/gas corrected via re-audit (was oil=63
+P23,P23,unspecified_plastic,mixed_waste,none,1.0,zeolite_SiAl_50,zeolite,1,50.0,,1,55.5,38.5,6,estimated,oil/gas corrected via re-audit (was oil=61.5
+P23,P23,unspecified_plastic,mixed_waste,none,1.0,zeolite_SiAl_85,zeolite,1,85.0,,1,52.5,41,6.5,estimated,oil/gas corrected via re-audit (was oil=59
+P23,P23,unspecified_plastic,mixed_waste,none,1.0,zeolite_SiAl_120,zeolite,1,120.0,,1,51.0,42,7,estimated,oil/gas corrected via re-audit (was oil=58
+P23,P23,unspecified_plastic,mixed_waste,none,1.0,zeolite_SiAl_200,zeolite,1,200.0,,1,47.5,45,7.5,estimated,oil/gas corrected via re-audit (was oil=55
+P23,P23,unspecified_plastic,mixed_waste,none,1.0,zeolite_SiAl_300,zeolite,1,300.0,,1,50.0,42,8,estimated,oil/gas corrected via re-audit (was oil=58
+P24,P24,PE_wax,wax,none,1.0,none,none,0,0.0,500.0,0,2.5,23.2,0,exact,atmosphere=N2; other=wax
+P24,P24,PE_wax,wax,none,1.0,none,none,0,0.0,600.0,0,11.9,48.6,0,exact,atmosphere=N2; other=wax
+P24,P24,PE_wax,wax,none,1.0,none,none,0,0.0,700.0,0,0.0,94.8,0,exact,atmosphere=N2; other=wax
+P24,P24,PE_wax,wax,none,1.0,none,none,0,0.0,500.0,0,2.3,29.1,0,exact,atmosphere=CO2; other=wax
+P24,P24,PE_wax,wax,none,1.0,none,none,0,0.0,600.0,0,8.5,63.2,0,exact,atmosphere=CO2; other=wax
+P24,P24,PE_wax,wax,none,1.0,none,none,0,0.0,700.0,0,0.0,97.6,0,exact,atmosphere=CO2; other=wax
+P25,P25,unspecified_plastic,mixed_waste,none,1.0,none,none,0,0.0,400.0,0,21.0,36,42,estimated,
+P25,P25,unspecified_plastic,mixed_waste,none,1.0,none,none,0,0.0,450.0,0,25.0,38.5,35,estimated,
+P25,P25,unspecified_plastic,mixed_waste,none,1.0,none,none,0,0.0,500.0,0,38.0,31.5,30,estimated,
+P25,P25,unspecified_plastic,mixed_waste,none,1.0,none,none,0,0.0,550.0,0,40.5,34.5,24,estimated,
+P25,P25,unspecified_plastic,mixed_waste,none,1.0,none,none,0,0.0,600.0,0,37.5,41,21.5,estimated,
+P28,P28,BR,other,MF,1.0,none,none,0,0.0,,1,39.5,4,56,estimated,BR=base resin? MF=modifier; gas_yield includes process loss
+P28,P28,BR,other,MF,0.75,none,none,0,0.0,,1,46.5,14.5,39,estimated,
+P28,P28,BR,other,MF,0.5,none,none,0,0.0,,1,49.0,25,26,estimated,
+P28,P28,BR,other,MF,0.25,none,none,0,0.0,,1,53.5,37,9.5,estimated,
+P28,P28,BR,other,MF,0.0,none,none,0,0.0,,1,54.0,46,0,estimated,

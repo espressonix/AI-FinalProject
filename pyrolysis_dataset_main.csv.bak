@@ -1,0 +1,202 @@
+paper_id,fig_ref,feedstock_primary,feedstock_secondary,blend_ratio,catalyst,catalyst_loading_pct,temperature_C,oil_yield_pct,gas_yield_pct,char_yield_pct,other_pct,data_confidence,notes
+P03,Fig2,PT,PET,100:0,none,0,400,27.2,22.0,52.0,,exact,co-pyrolysis PT:PET
+P03,Fig2,PT,PET,70:30,none,0,400,16,51.34,32.66,,exact,
+P03,Fig2,PT,PET,60:40,none,0,400,16,50.05,34.05,,exact,
+P03,Fig2,PT,PET,50:50,none,0,400,19,44.51,36.49,,exact,
+P03,Fig2,PT,PET,40:60,none,0,400,34,30.89,35.11,,exact,
+P03,Fig2,PT,PET,100:0,none,0,500,21.2,33.6,45.2,,exact,
+P03,Fig2,PT,PET,70:30,none,0,500,16,52.2,31.8,,exact,
+P03,Fig2,PT,PET,60:40,none,0,500,18,48.99,33.01,,exact,
+P03,Fig2,PT,PET,50:50,none,0,500,21,44.32,34.68,,exact,
+P03,Fig2,PT,PET,40:60,none,0,500,37,28.44,34.56,,exact,
+P03,Fig2,PT,PET,100:0,none,0,600,21.08,33.17,45.04,,exact,
+P03,Fig2,PT,PET,70:30,none,0,600,18,54.51,27.49,,exact,
+P03,Fig2,PT,PET,60:40,none,0,600,20,52.19,27.81,,exact,
+P03,Fig2,PT,PET,50:50,none,0,600,25,45.31,29.69,,exact,
+P03,Fig2,PT,PET,40:60,none,0,600,40,29.67,30.33,,exact,
+P04,Fig6a,unspecified_plastic,,,blank,0,,47.93,19.6,32.47,,exact,Cr@C catalyst series; temp = catalyst calcination temp not feedstock pyrolysis temp
+P04,Fig6a,unspecified_plastic,,,Cr@C-600,0,,44.05,25.3,30.65,,exact,
+P04,Fig6a,unspecified_plastic,,,Cr@C-700,0,,45.57,25.88,28.55,,exact,
+P04,Fig6a,unspecified_plastic,,,Cr@C-800,0,,45.3,22,32.7,,exact,
+P04,Fig6b,unspecified_plastic,,,Cr@C-700,0,,45.57,25.88,28.55,,exact,baseline repeated
+P04,Fig6b,unspecified_plastic,,,5Fe/Cr@C,5,,36.15,33.05,30.8,,exact,Fe loading wt%
+P04,Fig6b,unspecified_plastic,,,10Fe/Cr@C,10,,38.43,30.07,31.5,,exact,
+P04,Fig6b,unspecified_plastic,,,15Fe/Cr@C,15,,39.8,29.1,31.1,,exact,
+P04,Fig6b,unspecified_plastic,,,20Fe/Cr@C,20,,38.4,29.6,32,,exact,
+P05,Fig3a,VFR,PP,100:0,none,0,,26.22,41.18,32.59,,exact,
+P05,Fig3a,VFR,PP,90:10,none,0,,23.13,48.21,28.66,,exact,
+P05,Fig3a,VFR,PP,70:30,none,0,,30.47,47.07,22.46,,exact,
+P05,Fig3a,VFR,PP,50:50,none,0,,34.50,49.82,15.67,,exact,
+P05,Fig3a,PP,,0:100,none,0,,59.63,40.34,0,,exact,pure PP reference
+P05,Fig3b,VFR,HDPE,100:0,none,0,,26.22,41.18,32.59,,exact,
+P05,Fig3b,VFR,HDPE,90:10,none,0,,26.38,45.22,28.40,,exact,
+P05,Fig3b,VFR,HDPE,70:30,none,0,,31.13,46.65,22.22,,exact,
+P05,Fig3b,VFR,HDPE,50:50,none,0,,32.42,51.30,16.28,,exact,
+P05,Fig3b,HDPE,,0:100,none,0,,61.71,38.27,0,,exact,pure HDPE reference
+P05,Fig3c,VFR,LDPE,100:0,none,0,,26.22,41.18,32.59,,exact,
+P05,Fig3c,VFR,LDPE,90:10,none,0,,28.63,42.30,29.07,,exact,
+P05,Fig3c,VFR,LDPE,70:30,none,0,,31.50,45.74,22.75,,exact,
+P05,Fig3c,VFR,LDPE,50:50,none,0,,35.39,49.26,15.34,,exact,
+P05,Fig3c,LDPE,,0:100,none,0,,72.30,27.70,0,,exact,pure LDPE reference
+P06,Fig8a,CFW,,,CFW_blank,0,,31.5,51.4,17.1,,exact,
+P06,Fig8a,CFW,,,without_catalyst,0,,46.2,44.6,9.1,,exact,
+P06,Fig8a,CFW,,,EA,0,,35.5,55.1,9.5,,exact,
+P06,Fig8a,CFW,,,Cr,0,,39.5,49.6,10.8,,exact,
+P06,Fig8a,CFW,,,5CE,5,,66.5,23.0,10.4,,exact,
+P06,Fig8a,CFW,,,10CE,10,,45.2,44.3,10.6,,exact,
+P06,Fig8a,CFW,,,15CE,15,,76.4,13.6,10.0,,exact,
+P06,Fig8a,CFW,,,20CE,20,,42.4,47.4,10.2,,exact,
+P08,Fig4,EFB,,,none,0,,4,58.67,37.33,,exact,conversion_pct=62.67
+P08,Fig4,HDPE,,,none,0,,2.67,22.4,74.93,,exact,conversion_pct=25.07
+P08,Fig4,EFB,HDPE,,none,0,,4.21,35.66,60.13,,exact,conversion_pct=39.87
+P08,Fig4,EFB,HDPE,,CES,0,,4.68,21.51,73.81,,exact,conversion_pct=26.19
+P08,Fig4,EFB,HDPE,,FCC,0,,13.2,8.11,78.69,,exact,conversion_pct=21.31
+P08,Fig4,EFB,HDPE,,ZSM-5,0,,5.13,16.61,78.62,,exact,conversion_pct=21.74
+P09,Fig3a,plastic_container,,,none,0,650,59.5,3.0,0,37.5,exact,single-stage SS-N2; other=volatile
+P09,Fig3a,plastic_container,,,none,0,650,14.1,35.4,0,50.4,exact,multi-stage MS-N2; other=volatile
+P09,Fig3a,plastic_container,,,none,0,750,21.9,71.4,0,6.7,exact,multi-stage MS-N2; other=volatile
+P14,Fig2,HDPE,,,none,0,550,36.6,2.4,61.0,,exact,solid mapped to char
+P14,Fig2,PP,,,none,0,550,27.8,2.1,70.2,,exact,
+P14,Fig2,PET,,,none,0,550,13.5,45.6,37.8,3.1,exact,other=residue
+P14,Fig2,PS,,,none,0,550,97.6,2.4,0,,exact,
+P15,Fig8b,PE,,,CPP,0,,76.5,23.2,0,,exact,PE-CPP pyrolysis process
+P15,Fig8b,PE,,,TTPP,0,,85.3,14.3,0,,exact,PE-TTPP pyrolysis process
+P27,Fig3a,PP,,,none,0,,41.9,56.0,2.1,,exact,base process
+P27,Fig3a,PS,,,none,0,,81.3,11.7,7.0,,exact,base process
+P27,Fig3a,PS,PP,,none,0,,22.8,72.2,5.1,,exact,base process
+P27,Fig3a,PS,PE,,none,0,,51.5,41.3,7.2,,exact,base process
+P27,Fig3a,PP,PE,,none,0,,23.8,51.3,24.9,,exact,base process
+P27,Fig3a,PS,PE_PP,,none,0,,47.9,48.2,3.9,,exact,base process; 3-way blend
+P27,Fig3a,PS,PE_PP_PET,,none,0,,41.5,40.5,18.0,,exact,base process; 4-way blend
+P27,Fig3b,PP,,,none,0,,49.3,48.9,1.8,,exact,alternative/catalytic-reform process
+P27,Fig3b,PS,,,none,0,,81.3,11.7,7.0,,exact,alternative process
+P27,Fig3b,PS,PP,,none,0,,65.3,29.7,5.0,,exact,alternative process
+P27,Fig3b,PS,PE,,none,0,,65.6,27.2,7.2,,exact,alternative process
+P27,Fig3b,PP,PE,,none,0,,60.0,14.4,25.6,,exact,alternative process
+P27,Fig3b,PS,PE_PP,,none,0,,53.3,42.8,3.9,,exact,alternative process
+P27,Fig3b,PS,PE_PP_PET,,none,0,,43.0,39.0,18.0,,exact,alternative process
+P01,Fig3,algae_Ulva,LDPE,B33L67,none,0,450,44,32,35,,estimated,gridline read step5
+P01,Fig3,algae_Ulva,LDPE,B67L33,none,0,450,40,32,28,,estimated,
+P01,Fig3,algae_Ulva,LDPE,B33L67,none,0,525,48,34,37,,estimated,
+P01,Fig3,algae_Ulva,LDPE,B67L33,none,0,525,44,34,22,,estimated,
+P01,Fig3,algae_Ulva,LDPE,B33L67,none,0,600,48,40,41,,estimated,
+P01,Fig3,algae_Ulva,LDPE,B67L33,none,0,600,44,39,18,,estimated,
+P01,Fig3,algae_Ulva,LDPE,B33L67,none,0,675,44,47,48,,estimated,
+P01,Fig3,algae_Ulva,LDPE,B67L33,none,0,675,39,47,8,,estimated,
+P02,Fig2,Ulva_lactuca,PET,100:0,none,0,400,11,8,82,,estimated,
+P02,Fig2,Ulva_lactuca,PET,70:30,none,0,400,18,35,47,,estimated,
+P02,Fig2,Ulva_lactuca,PET,60:40,none,0,400,19,41,40,,estimated,
+P02,Fig2,Ulva_lactuca,PET,50:50,none,0,400,20,41,37,,estimated,
+P02,Fig2,Ulva_lactuca,PET,40:60,none,0,400,23,42,33,,estimated,
+P02,Fig2,Ulva_lactuca,PET,30:70,none,0,400,27,40,32,,estimated,
+P02,Fig2,Ulva_lactuca,PET,100:0,none,0,500,16,13,70,,estimated,
+P02,Fig2,Ulva_lactuca,PET,70:30,none,0,500,21,40,39,,estimated,
+P02,Fig2,Ulva_lactuca,PET,60:40,none,0,500,26,31,32,,estimated,
+P02,Fig2,Ulva_lactuca,PET,50:50,none,0,500,31,44,25,,estimated,
+P02,Fig2,Ulva_lactuca,PET,40:60,none,0,500,38,46,15,,estimated,
+P02,Fig2,Ulva_lactuca,PET,30:70,none,0,500,35,46,17,,estimated,
+P02,Fig2,Ulva_lactuca,PET,100:0,none,0,600,20,13,66,,estimated,
+P02,Fig2,Ulva_lactuca,PET,70:30,none,0,600,24,43,34,,estimated,
+P02,Fig2,Ulva_lactuca,PET,60:40,none,0,600,26,45,30,,estimated,
+P02,Fig2,Ulva_lactuca,PET,50:50,none,0,600,29,50,22,,estimated,
+P02,Fig2,Ulva_lactuca,PET,40:60,none,0,600,35,50,14,,estimated,
+P02,Fig2,Ulva_lactuca,PET,30:70,none,0,600,36,51,14,,estimated,
+P07,Fig6a,unspecified_plastic,,,Na2CO3,0,,61.5,29,10,,estimated,
+P07,Fig6a,unspecified_plastic,,,Na2CO3,2.5,,64,28.5,8,,estimated,
+P07,Fig6a,unspecified_plastic,,,Na2CO3,5,,63.5,29,7.5,,estimated,
+P07,Fig6a,unspecified_plastic,,,Na2CO3,7.5,,65,29,6.5,,estimated,
+P07,Fig6a,unspecified_plastic,,,Na2CO3,10,,64,30.5,5.5,,estimated,
+P10,Fig5,wax,,,NC,0,250,43,35,22,,estimated,catalytic cracking of wax pyrolysis oil
+P10,Fig5,wax,,,NC,0,300,74,26,0,,estimated,
+P10,Fig5,wax,,,B,0,250,60,2,38,,estimated,
+P10,Fig5,wax,,,B,0,300,64,23,13,,estimated,
+P10,Fig5,wax,,,H,0,250,63,14,23,,estimated,
+P10,Fig5,wax,,,H,0,300,79,10,11,,estimated,
+P10,Fig5,wax,,,S,0,250,62,19,19,,estimated,
+P10,Fig5,wax,,,S,0,300,76,12,12,,estimated,
+P11,Fig5a,unspecified_plastic,,,none,0,350,38,28.5,34,,estimated,oil=organic_liquid+water+wax combined
+P11,Fig5a,unspecified_plastic,,,none,0,400,45,30,25.5,,estimated,
+P11,Fig5a,unspecified_plastic,,,none,0,500,43,33,24,,estimated,
+P11,Fig5a,unspecified_plastic,,,none,0,550,41.5,34,24,,estimated,
+P11,Fig5a,unspecified_plastic,,,none,0,600,44,35,23,,estimated,
+P12,Fig5,unspecified_plastic,,,MCF,0,,55,32,9,,estimated,conversion_pct=85
+P12,Fig5,unspecified_plastic,,,mMCF72h,0,,66,20,4,,estimated,conversion_pct=82
+P12,Fig5,unspecified_plastic,,,Ecat,0,,66,20,4,,estimated,conversion_pct=83
+P12,Fig5,unspecified_plastic,,,mHZSM5,0,,62,21,4,,estimated,conversion_pct=82
+P12,Fig5,unspecified_plastic,,,HZSM5,0,,62,32,3.5,,estimated,conversion_pct=75
+P17,Fig4a,unspecified_plastic,,,none,0,,58,38,4,,estimated,rotary kiln solid heat carrier
+P17,Fig4a,unspecified_plastic,,,ZSM-5,0,,53,43,4,,estimated,
+P17,Fig4a,unspecified_plastic,,,5Ni/ZSM-5,5,,55,41,4,,estimated,Ni loading wt%
+P17,Fig4a,unspecified_plastic,,,10Ni/ZSM-5,10,,56,41,3,,estimated,
+P17,Fig4a,unspecified_plastic,,,20Ni/ZSM-5,20,,56,40,4,,estimated,
+P18,Fig3,PT,PET,0.0,none,0,600,59,3,38,,estimated,blending ratio 0=100%PT
+P18,Fig3,PT,PET,0.2,none,0,600,59,10,30,,estimated,
+P18,Fig3,PT,PET,0.4,none,0,600,66,10,23,,estimated,
+P18,Fig3,PT,PET,0.6,none,0,600,70,15,15,,estimated,
+P18,Fig3,PT,PET,0.8,none,0,600,73,19,7,,estimated,
+P18,Fig3,PT,PET,1.0,none,0,600,83,17,0,,estimated,ratio 1.0=100%PET
+P19,Fig2,PS,,,none,0,,17.5,,,,estimated,oil-only; t=180min endpoint; 300W
+P19,Fig2,PE,,,none,0,,16,,,,estimated,oil-only; t=180min endpoint
+P19,Fig2,PP,,,none,0,,17,,,,estimated,oil-only; t=180min endpoint
+P19,Fig2,PS,,,HZSM-5,0,,29.5,,,,estimated,oil-only; t=180min endpoint
+P19,Fig2,PE,,,HZSM-5,0,,27.5,,,,estimated,oil-only; t=180min endpoint
+P19,Fig2,PP,,,HZSM-5,0,,28.5,,,,estimated,oil-only; t=180min endpoint
+P20,Fig2,PE,,,none,0,,42.6,52.94,0,,estimated,tandem pyrolysis no reformation; mass_balance=95.54
+P20,Fig2,PP,,,none,0,,38.2,61.06,0,,estimated,mass_balance=99.26
+P20,Fig2,PS,,,none,0,,67.7,31.67,0,,estimated,mass_balance=99.37
+P20,Fig2,PET,,,none,0,,42.6,41.55,11.7,,estimated,mass_balance=95.85
+P21,Fig2_7_9,PET,sludge,1:3,none,0,450,25,3,52,,estimated,merged biochar/biooil/biogas figs
+P21,Fig2_7_9,PET,sludge,1:3,none,0,550,49.5,7.5,21,,estimated,
+P21,Fig2_7_9,PET,sludge,1:3,none,0,650,37,13.5,39,,estimated,
+P21,Fig2_7_9,PET,sludge,1:3,HZSM-5,0,450,25,7,48,,estimated,
+P21,Fig2_7_9,PET,sludge,1:3,HZSM-5,0,550,41,11,27,,estimated,
+P21,Fig2_7_9,PET,sludge,1:3,HZSM-5,0,650,21,5,60,,estimated,
+P21,Fig2_7_9,PET,sludge,1:3,KOH,0,450,17,39,33,,estimated,
+P21,Fig2_7_9,PET,sludge,1:3,KOH,0,550,18,10,57,,estimated,
+P21,Fig2_7_9,PET,sludge,1:3,KOH,0,650,20,12,51,,estimated,
+P21,Fig2_7_9,PET,sludge,1:1,none,0,450,11,4,67,,estimated,
+P21,Fig2_7_9,PET,sludge,1:1,none,0,550,25,9.5,52,,estimated,
+P21,Fig2_7_9,PET,sludge,1:1,none,0,650,46,10,26,,estimated,
+P21,Fig2_7_9,PET,sludge,1:1,HZSM-5,0,450,12,5.5,68,,estimated,
+P21,Fig2_7_9,PET,sludge,1:1,HZSM-5,0,550,29,14,46,,estimated,
+P21,Fig2_7_9,PET,sludge,1:1,HZSM-5,0,650,22,23.5,40,,estimated,
+P21,Fig2_7_9,PET,sludge,1:1,KOH,0,450,12,4,70,,estimated,
+P21,Fig2_7_9,PET,sludge,1:1,KOH,0,550,14,4.5,69,,estimated,
+P21,Fig2_7_9,PET,sludge,1:1,KOH,0,650,9.5,18,55,,estimated,
+P21,Fig2_7_9,PET,sludge,3:1,none,0,450,38,7,37,,estimated,
+P21,Fig2_7_9,PET,sludge,3:1,none,0,550,38.5,25,19,,estimated,
+P21,Fig2_7_9,PET,sludge,3:1,none,0,650,45,6,23,,estimated,
+P21,Fig2_7_9,PET,sludge,3:1,HZSM-5,0,450,26,33.5,18,,estimated,
+P21,Fig2_7_9,PET,sludge,3:1,HZSM-5,0,550,28.5,13,37,,estimated,
+P21,Fig2_7_9,PET,sludge,3:1,HZSM-5,0,650,25,30.5,22,,estimated,
+P21,Fig2_7_9,PET,sludge,3:1,KOH,0,450,22.5,24,36,,estimated,
+P21,Fig2_7_9,PET,sludge,3:1,KOH,0,550,20,31,33,,estimated,
+P21,Fig2_7_9,PET,sludge,3:1,KOH,0,650,33,41.5,5,,estimated,
+P22,Fig3a,CSGFP_blend,,0:1,none,0,,62,27,2,11,estimated,other=coke
+P22,Fig3a,CSGFP_blend,,2:1,none,0,,57,29,2,9,estimated,other=coke
+P22,Fig3a,CSGFP_blend,,1:1,none,0,,53,22,7,17,estimated,other=coke
+P22,Fig3a,CSGFP_blend,,1:2,none,0,,48,21,7,22,estimated,other=coke
+P22,Fig3a,CSGFP_blend,,1:0,none,0,,42,20,6,32,estimated,other=coke
+P23,Fig6a,unspecified_plastic,,,zeolite_SiAl_none,0,,89.5,4,6.5,,estimated,catalyst_loading_pct repurposed as Si/Al ratio below
+P23,Fig6a,unspecified_plastic,,,zeolite_SiAl_25,25,,63,31,6,,estimated,
+P23,Fig6a,unspecified_plastic,,,zeolite_SiAl_50,50,,61.5,32.5,6,,estimated,
+P23,Fig6a,unspecified_plastic,,,zeolite_SiAl_85,85,,59,34.5,6.5,,estimated,
+P23,Fig6a,unspecified_plastic,,,zeolite_SiAl_120,120,,58,35,7,,estimated,
+P23,Fig6a,unspecified_plastic,,,zeolite_SiAl_200,200,,55,37.5,7.5,,estimated,
+P23,Fig6a,unspecified_plastic,,,zeolite_SiAl_300,300,,58,34,8,,estimated,
+P24,Fig4b,PE_wax,,,none,0,500,2.5,23.2,0,74.3,exact,atmosphere=N2; other=wax
+P24,Fig4b,PE_wax,,,none,0,600,11.9,48.6,0,39.5,exact,atmosphere=N2; other=wax
+P24,Fig4b,PE_wax,,,none,0,700,0,94.8,0,5.2,exact,atmosphere=N2; other=wax
+P24,Fig4b,PE_wax,,,none,0,500,2.3,29.1,0,68.6,exact,atmosphere=CO2; other=wax
+P24,Fig4b,PE_wax,,,none,0,600,8.5,63.2,0,28.3,exact,atmosphere=CO2; other=wax
+P24,Fig4b,PE_wax,,,none,0,700,0,97.6,0,2.4,exact,atmosphere=CO2; other=wax
+P25,Fig6,unspecified_plastic,,,none,0,400,21,36,42,,estimated,
+P25,Fig6,unspecified_plastic,,,none,0,450,25,38.5,35,,estimated,
+P25,Fig6,unspecified_plastic,,,none,0,500,38,31.5,30,,estimated,
+P25,Fig6,unspecified_plastic,,,none,0,550,40.5,34.5,24,,estimated,
+P25,Fig6,unspecified_plastic,,,none,0,600,37.5,41,21.5,,estimated,
+P28,Fig3,BR,MF,1:0,none,0,,39.5,4,56,,estimated,BR=base resin? MF=modifier; gas_yield includes process loss
+P28,Fig3,BR,MF,3:1,none,0,,46.5,14.5,39,,estimated,
+P28,Fig3,BR,MF,1:1,none,0,,49,25,26,,estimated,
+P28,Fig3,BR,MF,1:3,none,0,,53.5,37,9.5,,estimated,
+P28,Fig3,BR,MF,0:1,none,0,,54,46,0,,estimated,

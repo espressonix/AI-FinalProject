@@ -1,0 +1,6 @@
+paper_id,fig_ref,feedstock_primary,feedstock_secondary,blend_ratio,catalyst,catalyst_loading_pct,temperature_C,oil_yield_pct,gas_yield_pct,char_yield_pct,other_pct,data_confidence,notes
+P13,Fig3a,PE,,,none,0,800,69,27,4,,exact,high-temp carbonization regime (exceeds typical 300-700C pyrolysis range)
+P13,Fig3a,PE,,,none,0,1300,60,34,6,,exact,high-temp carbonization regime
+P13,Fig3a,PE,,,none,0,1600,46,42,12,,exact,high-temp carbonization regime
+P13,Fig3a,PE,,,none,0,1900,38,47,15,,exact,high-temp carbonization regime
+P13,Fig3a,PE,,,none,0,2300,28,51,21,,exact,high-temp carbonization regime

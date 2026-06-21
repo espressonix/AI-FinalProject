@@ -1,0 +1,6 @@
+streamlit>=1.40
+starlette>=0.47
+pandas
+scikit-learn
+joblib
+matplotlib

@@ -1,0 +1,20 @@
+{
+  "feedstock_family": [
+    "PE",
+    "PET",
+    "PP",
+    "PS",
+    "biomass",
+    "mixed_waste",
+    "other",
+    "wax"
+  ],
+  "catalyst_family": [
+    "alkali",
+    "fcc_zeolite_industrial",
+    "metal_doped",
+    "none",
+    "other_catalyst",
+    "zeolite"
+  ]
+}
